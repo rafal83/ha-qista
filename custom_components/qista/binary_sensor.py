@@ -114,3 +114,4 @@ class QistaBinarySensor(
         """Return true if the binary sensor is on."""
         device_data = self.coordinator.data.get("devices", {}).get(self.device_id, {})
         return self.entity_description.is_on_fn(device_data)
+

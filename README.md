@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="custom_components/qista/brand/dark_logo.png">
+    <img alt="Qista" src="custom_components/qista/brand/logo.png" width="280">
+  </picture>
+</p>
+
 # 🦟 Qista Mosquito Trap - Home Assistant Custom Component (HACS)
 
 [![HACS Custom Component](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/)
@@ -126,6 +133,13 @@ L'intégration utilise l'API Cloud GraphQL officielle :
 ha-qista/
 ├── custom_components/
 │   └── qista/
+│       ├── brand/                # Images de marque officielles (Home Assistant)
+│       │   ├── icon.png
+│       │   ├── icon@2x.png
+│       │   ├── logo.png
+│       │   ├── logo@2x.png
+│       │   ├── dark_logo.png
+│       │   └── dark_logo@2x.png
 │       ├── __init__.py           # Initialisation & cycle de vie du composant
 │       ├── manifest.json         # Déclaration officielle Home Assistant
 │       ├── const.py              # Constantes et endpoint GraphQL
@@ -138,6 +152,8 @@ ha-qista/
 │       └── translations/         # Fichiers de localisation (FR / EN)
 │           ├── fr.json
 │           └── en.json
+├── icon.png                      # Icône du dépôt (HACS)
+├── logo.png                      # Logo du dépôt (HACS)
 ├── hacs.json                     # Configuration HACS
 ├── LICENSE                       # Licence MIT
 └── README.md                     # Documentation

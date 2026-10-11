@@ -93,3 +93,4 @@ class QistaConsumableResetButton(
             bam_id=self.device_id, co2=is_co2, bait=is_bait
         )
         await self.coordinator.async_request_refresh()
+
