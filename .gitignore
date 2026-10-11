@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Home Assistant local / dev
+.storage/
+*.log
+
+# APK analysis tools & binaries
+apk/
+tools/
+scratch/
+
+# Secrets & local scratch scripts
+.env
+*.env
+test_*.py
+find_*.py
+scan_*.py
+fetch_*.py
+introspect_*.py
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,73 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Qista",
+        "description": "Provide your Qista credentials to integrate your mosquito traps.",
+        "data": {
+          "username": "Email",
+          "password": "Password",
+          "graphql_url": "GraphQL URL (optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Qista server.",
+      "invalid_auth": "Invalid credentials.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This Qista account is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "mosquitoe_catch_day": {
+        "name": "Mosquitoes captured today"
+      },
+      "mosquitoe_catch_week": {
+        "name": "Mosquitoes captured (7 days)"
+      },
+      "mosquitoe_catch_total": {
+        "name": "Total captured mosquitoes"
+      },
+      "working_status": {
+        "name": "Working status"
+      },
+      "operating_status": {
+        "name": "Operating status"
+      },
+      "sim_status": {
+        "name": "SIM status"
+      },
+      "bait_remaining_days": {
+        "name": "Lure remaining (days)"
+      },
+      "co2_remaining_days": {
+        "name": "CO2 remaining (days)"
+      },
+      "loaded_co2_bottle_label": {
+        "name": "Loaded CO2 bottle type"
+      }
+    },
+    "binary_sensor": {
+      "is_connected": {
+        "name": "Cloud Connected"
+      },
+      "is_low_bait": {
+        "name": "Lure low alert"
+      },
+      "is_low_co2": {
+        "name": "CO2 low alert"
+      }
+    },
+    "button": {
+      "reset_co2": {
+        "name": "Reset CO2 counter"
+      },
+      "reset_bait": {
+        "name": "Reset Lure counter"
+      }
+    }
+  }
+}

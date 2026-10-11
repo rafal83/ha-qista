@@ -1,0 +1,12 @@
+{
+  "domain": "qista",
+  "name": "Qista Mosquito Trap",
+  "codeowners": ["@rafal83"],
+  "config_flow": true,
+  "documentation": "https://github.com/rafal83/ha-qista",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/rafal83/ha-qista/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
